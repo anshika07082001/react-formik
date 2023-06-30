@@ -1,0 +1,46 @@
+.form--element {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form--element input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.form--element label {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.form--element span {
+    font-size: 1rem;
+    color: red;
+}
+
+.submit-btn {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    background: rgb(43 120 165);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
